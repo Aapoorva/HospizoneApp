@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apoorva.hospizone">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hospizone_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".DoctorList"
+            android:label="@string/title_activity_doctor_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpecDocList"
+            android:label="@string/title_activity_spec_doc_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorDetails"
+            android:label="@string/title_activity_doctor_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PatientDetails" />
+        <activity android:name=".Payment" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".NearByHospital"
+            android:label="@string/title_activity_near_by_hospital"></activity>
+    </application>
+
+</manifest>

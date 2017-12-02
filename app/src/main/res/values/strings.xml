@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hospizone</string>
+    <string name="title_activity_doctor_list">DoctorList</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spec_doc_list">SpecDocList</string>
+    <string name="title_activity_doctor_details">DoctorDetails</string>
+    <string name="title_activity_near_by_hospital">Map</string>
+</resources>

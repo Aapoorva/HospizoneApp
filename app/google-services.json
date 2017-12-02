@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542003193072",
+    "firebase_url": "https://hospizone-f2668.firebaseio.com",
+    "project_id": "hospizone-f2668",
+    "storage_bucket": "hospizone-f2668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542003193072:android:9fdcd03b417bdb97",
+        "android_client_info": {
+          "package_name": "com.example.apoorva.hospizone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542003193072-ep0fcvmltpuojvhm8n78e4a9hgh636lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apoorva.hospizone",
+            "certificate_hash": "1a034a665829eab4a846d5d51d2ec3c14c7f9e80"
+          }
+        },
+        {
+          "client_id": "542003193072-i95o1sdvdc4vtrf3bg2pj2soe8ht8oj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQWJxbOniByZWk6A2lbgfOS2m4h3sWTMU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542003193072-i95o1sdvdc4vtrf3bg2pj2soe8ht8oj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
